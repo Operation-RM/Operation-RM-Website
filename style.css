@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: teal;
+    background-color: beige;
   }
 
   .w-background{
@@ -82,7 +82,7 @@ body{
   #mission-section{
     display: block;
     width: 100%;
-    background-color: #2D2E2E;
+    background-color: beige;
     padding: 60px;
     text-align: center;
   }
@@ -92,13 +92,13 @@ body{
     padding: 20;
     font-size: 20px;
     margin: auto;
-    color: #FBFBFB;
+    color: #2D2E2E;
   }
   
   #mission-section h2{
     padding: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #FBFBFB;
+    color: #2D2E2E;
   
   }
 
@@ -106,7 +106,7 @@ body{
   #requirements-section{
     display: block;
     width: 100%;
-    background-color: #BCABAE;
+    background-color: #2D2E2E;
     padding: 60px;
     text-align: center;
   }
@@ -184,6 +184,59 @@ body{
     border-radius: 50%;
   }
 
+
+  /* Documents */
+  #documents-section {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    color: #2D2E2E;
+    background-color: beige ;
+    min-height: 500px;
+  }
+  
+  #documents-section i{
+    font-size: 20px;
+  }
+
+  #documents-section h2{
+    padding: 20px;
+  }
+  
+  .icon{
+    margin-top: 50px;
+  }
+
+  #documents-section a{
+    text-decoration: none;
+    color: #2D2E2E;
+  }
+
+  #documents-section p{
+    text-decoration: none;
+    color: #2D2E2E;
+  }
+  
+  #documents-section i:hover{
+    color: black;
+    font-size: 70px;
+  }
+  
+  .row i{
+    font-size: 60px;  
+  }
+  
+  #documents-section i{
+    font-size: 50px;
+  }
+  
+  #documents-section h2{
+    padding: 60px 0px 20px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+
   /* skills  */
   #skills-section{
     display: block;
@@ -253,11 +306,16 @@ body{
     width: 100%;  
   }
   
-  
-  
-  
   #footer-section{
     text-align: center;
     margin-top: 40px;
   }
   
+
+  /*sponsor*/
+  .sponsor{
+    background-color: #2D2E2E;
+    color: beige;
+    margin: 0px;
+    padding: 0px;
+  }
