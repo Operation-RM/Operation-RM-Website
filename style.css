@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: beige;
+    background-color: #869D96;
   }
 
   .w-background{
@@ -82,7 +82,7 @@ body{
   #mission-section{
     display: block;
     width: 100%;
-    background-color: beige;
+    background-color: #869D96;
     padding: 60px;
     text-align: center;
   }
@@ -152,7 +152,7 @@ body{
     width: 100%;
     text-align: center;
     margin: 40px 0;
-    color: white;
+    color: #869D96;
     background-color: #2D2E2E;
     min-height: 500px;
     padding-bottom: 50px;
@@ -192,7 +192,7 @@ body{
     text-align: center;
     margin: 40px 0;
     color: #2D2E2E;
-    background-color: beige ;
+    background-color: #869D96 ;
     min-height: 500px;
   }
   
