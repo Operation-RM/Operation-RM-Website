@@ -1,321 +1,259 @@
 /* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: #869D96;
-  }
+  margin: 0px;
+  padding: 0px;
+  background-color:#2D2E2E ;
+}
 
-  .w-background{
-    background-color: #212529;    
-  }
-  
-  .bi-house-door{
-    color: white;
-  }
 
-  .red{
-    color: #ED2024;
-  }
+/*
+blue-ish green
+#869D96
+*/
 
-  h1{
-     font-family: 'Josefin Sans', sans-serif;
-   }
-  
-  h2{
+.w-background{
+  background-color: #212529;    
+}
+
+.bi-house-door{
+  color: white;
+}
+
+.red{
+  color: #ED2024;
+}
+
+h1{
     font-family: 'Josefin Sans', sans-serif;
   }
-  
-  P{
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  #hero-section{
-    background-image: 
-      linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
-      url(pictures/main_background.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    padding: 20%;
-    color: white;
-    text-align: center;
-  }
-  
-  .navbar i{
-    padding-left: 15px;
-  }
-  
-  .head-border{
-    border-width: 2%;
-    border-style: solid;
-    color: white;
-  }
-  
-  .face{
-    width:10vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  
-  .center{
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    border-radius: 60%;
-  }
-  
-  .card{
-    text-align: center;
-    margin: auto;
-    background: transparent;
-    border: none;
-  }
-  
-  .card-body{
-    background: transparent;
-    color: white;
-    margin: 10px;
-  }
-  
-  /* mission  */
-  #mission-section{
-    display: block;
-    width: 100%;
-    background-color: #869D96;
-    padding: 60px;
-    text-align: center;
-  }
-  
-  #mission-section p{
-    text-align: center;
-    padding: 20;
-    font-size: 20px;
-    margin: auto;
-    color: #2D2E2E;
-  }
-  
-  #mission-section h2{
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #2D2E2E;
-  
-  }
 
-  /* requiremnts  */
-  #requirements-section{
-    display: block;
-    width: 100%;
-    background-color: #2D2E2E;
-    padding: 60px;
-    text-align: center;
-  }
-  
-  #requirements-section p{
-    text-align: center;
-    padding: 20;
-    font-size: 20px;
-    margin: auto;
-  }
-  
-  #requirements-section h2{
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-  
-  }
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-  /* solution  */
-  #solution-section{
-    display: block;
-    width: 100%;
-    background-color: teal;
-    padding: 60px;
-    text-align: center;
-  }
-  
-  #solution-section p{
-    text-align: center;
-    padding: 20;
-    font-size: 20px;
-    margin: auto;
-  }
-  
-  #solution-section h2{
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-  
-  }
+P{
+  font-family: 'Poppins', sans-serif;
+}
 
-  /*  team  */
-  #team-section{
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 40px 0;
-    color: #869D96;
-    background-color: #2D2E2E;
-    min-height: 500px;
-    padding-bottom: 50px;
-  }
-  
-  .team-description{
-    font-size: 20px;
-    text-decoration: underline;
-  }
+#hero-section{
+  background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(pictures/main_background.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20%;
+  color: white;
+  text-align: center;
+}
 
-  .team-roles{
-   font-size: 15px;
-  }
+.navbar i{
+  padding-left: 15px;
+}
 
-  .emails{
-   font-size: 12px;
-  }
-  
-  #team-section h2{
-    padding: 60px 0px 20px 0px;
-    font-family: 'Josefin Sans', sans-serif;
-  
-  }
+.head-border{
+  border-width: 2%;
+  border-style: solid;
+  color: white;
+}
 
-  .headShots{
-    padding: 50px;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-  }
+.face{
+  width:10vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  border-radius: 60%;
+}
+
+.card{
+  text-align: center;
+  margin: auto;
+  background: transparent;
+  border: none;
+}
+
+.card-body{
+  background: transparent;
+  color: white;
+  margin: 10px;
+}
 
 
-  /* Documents */
-  #documents-section {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 40px 0;
-    color: #2D2E2E;
-    background-color: #869D96 ;
-    min-height: 500px;
-  }
-  
-  #documents-section i{
-    font-size: 20px;
-  }
+/* mission  */
+#mission-section{
+  display: block;
+  width: 100%;
+  background-color: #869D96;
+  padding: 100px;
+  text-align: center;
+}
 
-  #documents-section h2{
-    padding: 20px;
-  }
-  
-  .icon{
-    margin-top: 50px;
-  }
+#mission-section p{
+  text-align: center;
+  padding: 20;
+  font-size: 20px;
+  margin: auto;
+  color: #FBFBFB;
+}
 
-  #documents-section a{
-    text-decoration: none;
-    color: #2D2E2E;
-  }
+#mission-section h2{
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FBFBFB;
 
-  #documents-section p{
-    text-decoration: none;
-    color: #2D2E2E;
-  }
-  
-  #documents-section i:hover{
-    color: black;
-    font-size: 70px;
-  }
-  
-  .row i{
-    font-size: 60px;  
-  }
-  
-  #documents-section i{
-    font-size: 50px;
-  }
-  
-  #documents-section h2{
-    padding: 60px 0px 20px 0px;
-    font-family: 'Josefin Sans', sans-serif;
-  
-  }
+}
 
-  /* skills  */
-  #skills-section{
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin: 40px 0;
-    color: white;
-    background-color: #2D2E2E;
-    min-height: 500px;
-  }
-  
-  .skill-description{
-    font-size: 20px;
-  }
-  
-  .icon{
-    margin-top: 50px;
-  }
-  
-  #skills-section h2{
-    padding: 60px 0px 20px 0px;
-    font-family: 'Josefin Sans', sans-serif;
-  
-  }
-  
-  /* contact  */
-  #contact-section{
-    padding: 40px;
-    text-align: center;
-    background-color: teal;
-  }
-  
-  #contact-section h2{
-    padding: 20px;
-  }
-  
-  .contact a{
-    text-decoration: none;
-    color: black;
-  }
-  
-  .contact i:hover{
-    color: white;
-    font-size: 70px;
-  }
-  
-  .row i{
-    font-size: 60px;  
-  }
-  
-  .icon{
-    font-size: 50px;
-  }
-  
-  .carousel-item img{
-    background-image: url("will_ferrel.jpg");
-  }
-  
-  #carousel{
-    display: block;
-    height: 300px;
-    width: 100%;
-  }
-  
-  .carousel-item {
-    height: 40%;
-    width: 100%;  
-  }
-  
-  #footer-section{
-    text-align: center;
-    margin-top: 40px;
-  }
-  
+/*meet the sponsor carousel*/
+/* mission  */
+#meetSponsor{
+  display: block;
+  width: 100%;
+  background-color: #869D96;
+  padding: 100px;
+  text-align: center;
+}
 
-  /*sponsor*/
-  .sponsor{
-    background-color: #2D2E2E;
-    color: beige;
-    margin: 0px;
-    padding: 0px;
-  }
+#meetSponsor p{
+  text-align: center;
+  padding: 20;
+  font-size: 20px;
+  margin: auto;
+  color: #FBFBFB;
+}
+
+#meetSponsor h2{
+  padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FBFBFB;
+
+}
+
+/*  team  */
+#team-section{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  color: #869D96;
+  background-color: #2D2E2E;
+  min-height: 500px;
+  padding-bottom: 50px;
+}
+
+.team-description{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.team-roles{
+  font-size: 15px;
+}
+
+.emails{
+  font-size: 12px;
+}
+
+#team-section h2{
+  padding: 60px 0px 20px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.headShots{
+  padding: 50px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
+/*sponsor*/
+.sponsor{
+  background-color: #2D2E2E;
+  color: beige;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Documents */
+#documents-section {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+  color: #2D2E2E;
+  background-color: #869D96 ;
+  min-height: 500px;
+}
+
+#documents-section i{
+  font-size: 20px;
+}
+
+#documents-section h2{
+  padding: 20px;
+}
+
+.icon{
+  margin-top: 50px;
+}
+
+#documents-section a{
+  text-decoration: none;
+  color: #2D2E2E;
+}
+
+#documents-section p{
+  text-decoration: none;
+  color: #2D2E2E;
+}
+
+#documents-section i:hover{
+  color: black;
+  font-size: 70px;
+}
+
+.row i{
+  font-size: 60px;  
+}
+
+#documents-section i{
+  font-size: 50px;
+}
+
+#documents-section h2{
+  padding: 60px 0px 20px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/*footer*/
+#footer-section{
+  text-align: center;
+  color: white;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #00aaff, #0055ff);
+  border: 2px solid #00aaff;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0055ff, #00aaff);
+}
