@@ -20,7 +20,7 @@ blue-ish green
 }
 
 .red{
-  color: #ED2024;
+  color: hsl(359, 85%, 53%);
 }
 
 h1{
@@ -38,13 +38,22 @@ P{
 #hero-section{
   background-image: 
     linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
-    url(pictures/main_background.jpg);
+    url(pictures/main_background_new.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
   padding: 20%;
   color: white;
   text-align: center;
+}
+
+#project_description {
+   display: block;
+   width: 100%;
+   text-align: center;
+   color:#2D2E2E;
+   background-color: #869D96;
+   min-height: 500px;
 }
 
 .navbar i{
@@ -68,7 +77,6 @@ P{
   margin-left: auto;
   margin-right: auto;
   object-fit: contain;
-  border-radius: 60%;
 }
 
 .card{
@@ -181,6 +189,19 @@ P{
   padding: 0px;
 }
 
+#video {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-color: black ;
+  min-height: 500px;
+}
+
+#video_spacer {
+   padding-top: 50px;
+}
+
 
 /* Documents */
 #documents-section {
@@ -243,17 +264,17 @@ P{
 
 .button {
   display: inline-block;
-  padding: 15px 30px;
-  font-size: 24px;
-  color: #fff;
+  padding: 8px 30px;
+  font-size: 18px;
+  color: white;
   text-decoration: none;
-  background: linear-gradient(135deg, #00aaff, #0055ff);
-  border: 2px solid #00aaff;
+  background: #2D2E2E;
+  border: 2px solid white;
   border-radius: 5px;
   transition: transform 0.2s;
 }
 
 .button:hover {
   transform: scale(1.05);
-  background: linear-gradient(135deg, #0055ff, #00aaff);
+  background: hsl(359, 85%, 53%);
 }
