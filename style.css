@@ -19,6 +19,11 @@ blue-ish green
   color: white;
 }
 
+.left_space {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
 .red{
   color: hsl(359, 85%, 53%);
 }
