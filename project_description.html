@@ -78,8 +78,9 @@
          </p>
          <p>
             The initial concept for this project was specified by GDMS through
-            <a target="_blank" rel="noopener noreferrer" href="https://www.ceias.nau.edu/cs/CS_Capstone/Projects/F23/Abousleman_AppControlingRadio.pdf">this</a>
+            <a href="#myIframe7" onclick="openIframe('7')">this</a>
             document.
+            <iframe id="myIframe7" src="https://www.ceias.nau.edu/cs/CS_Capstone/Projects/F23/Abousleman_AppControlingRadio.pdf" ></iframe>
       </div>
    </section>
 
@@ -137,6 +138,17 @@
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script>
+         function openIframe(num) {
+            var iframe = document.getElementById('myIframe'+ num);
+            if(iframe.style.display == 'block'){
+               iframe.style.display = 'none';
+            }
+            else{
+               iframe.style.display = 'block';
+            }
+         }
+      </script>
       
 
    </body>

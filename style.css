@@ -459,6 +459,17 @@ a {
    padding: 20%;
  }
 
+ #myIframe1,#myIframe2,#myIframe3,#myIframe4,#myIframe5,#myIframe6,#myIframe7{
+  display: none;
+  width: 100%;
+  height: 600px;
+ }
+
+ #iframe_button{
+  background-color: #2D2E2E;
+  color: #869D96;
+ }
+
  #schedule{
    padding: 50px;
    min-height: 100px;
