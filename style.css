@@ -424,11 +424,28 @@ a {
 
  #documents h2 {
    padding-top: 20px;
-   padding-bottom: 20px;
+   padding-bottom: 10px;
+   font-size: 24px;
+   text-decoration: underline;
+ }
+
+ #documents h3 {
+   padding-top: 10px;
+   padding-bottom: 10px;
    font-size: 20px;
  }
 
  #documents a{
    color: black;
    text-decoration: underline;
+ }
+
+ #doc_background_image {
+   background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(./pictures/documents_background.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   padding: 20%;
  }
