@@ -16,22 +16,42 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-       <a href="./index.html" class="navbar-brand">
+      <a href="./index.html" class="navbar-brand">
           <i class="bi bi-house-door"></i>
-       </a>
-       <div class="collapse navbar-collapse" id="nav-items">
-         <ul class="nav navbar-nav left_space">
-            <li><a href="./index.html#team-section" class="nav-link">Team</a></li>
-            <li><a href="./project_description.html" class="nav-link">Project Description</a></li>
-            <li><a href="./documents.html" class="nav-link">Documents</a></li>
-            <li><a href="./schedule.html" class="nav-link">Schedule</a></li>
-         </ul>
-       </div>
-    </nav>
+      </a>
+      <div class="collapse navbar-collapse" id="nav-items">
+          <ul class="nav navbar-nav left_space">
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">About</a>
+                  <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                      <a class="dropdown-item" href="./index.html#team-section">Meet the Team</a>
+                      <a class="dropdown-item" href="./index.html#learn_more">Learn More</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="projectDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">Project Details</a>
+                  <div class="dropdown-menu" aria-labelledby="projectDropdown">
+                      <a class="dropdown-item" href="./project_description.html">Project Description</a>
+                      <a class="dropdown-item" href="./solution.html">Envisioned Solution</a>
+                      <a class="dropdown-item" href="./requirements.html">Requirements</a>
+                      <a class="dropdown-item" href="./technologies.html">Technologies</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a href="./documents.html" class="nav-link">Documents</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./schedule.html" class="nav-link">Schedule</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
    <section id="sched_background_image">
       <div class="card">
          <div class="container">
@@ -117,11 +137,13 @@
          <div class="subtimeline-2 main-timeline-2">
           <div class="subtimeline timeline-2 left-2 incomplete">
             <div class="card">
-              <img src="./pictures/connectivity.jpg" class="card-img-top"
-                alt="Responsive image">
-              <div class="card-body p-4">
+               <div class="image-container">
+                  <img src="./pictures/connectivity.jpg" class="card-img-top" alt="Responsive image">
+                  <div class="gradient"></div>
+               </div>
+              <div class="card-body p-4 gray">
                 <h4 class="fw-bold mb-4">Connectivity & Testbeds</h4>
-                <p class="dates">December 2023</p>
+                <p class="dates-2">December 2023</p>
                 <p class="mb-0">Ensuring connectivity between the mobile application and the radio modem.
                   Developing testbeds to streamline the development process.
                 </p>
@@ -130,11 +152,14 @@
           </div>
           <div class="subtimeline timeline-2 right-2">
             <div class="card">
+               <div class="image-container">
               <img src="./pictures/transfer.jpg" class="card-img-top"
                 alt="Responsive image">
-              <div class="card-body p-4">
+                <div class="gradient"></div>
+               </div>
+              <div class="card-body p-4 gray">
                 <h4 class="fw-bold mb-4">File Transfer Operations</h4>
-                <p class="dates">January 2023</p>
+                <p class="dates-2">January 2023</p>
                 <p class="mb-0">Adding file transfer operations to the prototype. Both sending and receiving using
                   the selected waveform.
                 </p>
@@ -143,11 +168,14 @@
           </div>
           <div class="subtimeline timeline-2 left-2 incomplete">
             <div class="card">
+               <div class="image-container">
               <img src="./pictures/software.jpg" class="card-img-top"
                 alt="Responsive image">
-              <div class="card-body p-4">
+                <div class="gradient"></div>
+               </div>
+              <div class="card-body p-4 gray">
                 <h4 class="fw-bold mb-4">Testing & Validation</h4>
-                <p class="dates">March 2024</p>
+                <p class="dates-2">March 2024</p>
                 <p class="mb-0">Ensuring the solution works and is robust. Validating the requirements
                   through demonstrations with General Dynamics Mission Systems.
                 </p>
@@ -156,11 +184,14 @@
           </div>
           <div class="subtimeline timeline-2 right-2">
             <div class="card">
+               <div class="image-container">
               <img src="./pictures/deployment.jpg" class="card-img-top"
                 alt="Responsive image">
-              <div class="card-body p-4">
+                <div class="gradient"></div>
+               </div>
+              <div class="card-body p-4 gray">
                 <h4 class="fw-bold mb-4">Deployment & Delivery</h4>
-                <p class="dates">April 2023</p>
+                <p class="dates-2">April 2023</p>
                 <p class="mb-0">Deployement of the application, sending source code and documentation
                    to General Dynamics Mission Systems.
                 </p>

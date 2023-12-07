@@ -51,64 +51,43 @@
           </ul>
       </div>
   </nav>
-   <section id="doc_background_image">
+   <section id="sol_background_image">
 
    </section>
-   <section id="documents">
+   <section id="description">
       <div>
-         <h1>Documents</h1>
-         <p>Here you can find copies of various deliverables required throughout the project. Some products, documents, and deliverables may not
-            be present in this listing due to proprietary information concerns.
+         <h1>Envisioned Solution</h1>
+         <p>Our solution is a mobile android application that will enable the tactical communication between
+            a user and the radio modem by General Dynamics Mission Systems. This will enable users to more
+            easily send and receive messages on a mobile device.
          </p>
-         <h2>Documentation</h2>
-         <h3>Technological Feasibility</h3>
-            <p>A technological feasibility study was conducted to analyze various risks that developing the solution may impose. This study helped mitigate
-               these risks by analyzing potential tools, methods, and solutions and weighing the benefits for each candidate.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('1')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe1" src="pdfs/Tech_Feasability.docx.pdf"></iframe>
-         <h3>Requirements</h3>
-            <p>The purpose of the requirement specification document was to establish the set of requirements so that the developed 
-               solution will meet the needs of the client. This document provides a thorough understanding of the project's scope, goals, and execution plan.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('2')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe2" src="pdfs/Requirements.pdf"></iframe>
-         <h2>Presentations</h2>
-         <h3>Mini Intro Slides</h3>
-            <p>The mini intro presentation served to introduce the client, as well as provide a brief overview of the proposed solution.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('3')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe3" src="documents/mini_intro.pdf"></iframe>
-         <h3>Design Review Slides</h3>
-            <p>The design review presentation provided a comprehensive overview of the project, the current status, as well as reviewing any
-               risks.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('4')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe4" src="documents/design_review.pdf"></iframe>
-         <h3>Poster</h3>
-            <p>The capstone poster was displayed at a conference and was used to describe our product to aspiring engineers,
-               industry members, and clients.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('5')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe5" src="pdfs/Poster.pptx.pdf"></iframe>
-         <h2>Videos</h2>
-         <h3>Project Info Mini Video</h3>
-            <p>The project mini video is an elevator-pitch style video used to demonstrate the capabilities of our product.
-            </p>
-            <p>
-               <button id="iframe_button" onclick="openIframe('6')"><i class="bi bi-download"></i></button>
-            </p>
-            <iframe id="myIframe6" src="https://www.youtube.com/embed/dgWJIdPbHFY?si=3zBqWzOc2Jkdva15"></iframe>
+         <p>
+            Our system architecture consists of the following:
+            <ul>
+               <li>A wifi-enabled android device that is able to communicate with the software defined radio (SDR) using
+                  a socket connection. This is the overarching systems diagram, however a radio simulator will be used
+                  by our team in place of the actual SDR.
+                  <p>
+                     <div class="image_container">
+                        <img src="pictures/new_systems.png"></img>
+                     </div>
+                  </p>
+               </li>
+               <li>Communication between the mobile device and the SDR will be simulated. The radio simulator is
+                  implemented in a linux environment running in VirtualBox. The android application will communicate
+                  through the RCI interface via a socket connection using an IP or Wifi connection.
+                  <p>
+                     <div class="image_container">
+                        <img src="pictures/Mission.png"></img>
+                     </div>
+                  </p>
+               </li>
+            </ul>
+         </p>
+         <p>Our solution is a mobile android application that will enable the tactical communication between
+            a user and the radio modem by General Dynamics Mission Systems. This will enable users to more
+            easily send and receive messages on a mobile device.
+         </p>
       </div>
    </section>
 
@@ -166,17 +145,6 @@
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-      <script>
-         function openIframe(num) {
-            var iframe = document.getElementById('myIframe'+ num);
-            if(iframe.style.display == 'block'){
-               iframe.style.display = 'none';
-            }
-            else{
-               iframe.style.display = 'block';
-            }
-         }
-      </script>
       
 
    </body>

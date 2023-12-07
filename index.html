@@ -15,22 +15,42 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
+   <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-       <a href="./index.html" class="navbar-brand">
+      <a href="./index.html" class="navbar-brand">
           <i class="bi bi-house-door"></i>
-       </a>
-       <div class="collapse navbar-collapse" id="nav-items">
-         <ul class="nav navbar-nav left_space">
-            <li><a href="#team-section" class="nav-link">Team</a></li>
-            <li><a href="./project_description.html" class="nav-link">Project Description</a></li>
-            <li><a href="./documents.html" class="nav-link">Documents</a></li>
-            <li><a href="./schedule.html" class="nav-link">Schedule</a></li>
-         </ul>
-       </div>
-    </nav>
+      </a>
+      <div class="collapse navbar-collapse" id="nav-items">
+          <ul class="nav navbar-nav left_space">
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">About</a>
+                  <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                      <a class="dropdown-item" href="#team-section">Meet the Team</a>
+                      <a class="dropdown-item" href="#learn_more">Learn More</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="projectDropdown" role="button" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">Project Details</a>
+                  <div class="dropdown-menu" aria-labelledby="projectDropdown">
+                      <a class="dropdown-item" href="./project_description.html">Project Description</a>
+                      <a class="dropdown-item" href="./solution.html">Envisioned Solution</a>
+                      <a class="dropdown-item" href="./requirements.html">Requirements</a>
+                      <a class="dropdown-item" href="./technologies.html">Technologies</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+                  <a href="./documents.html" class="nav-link">Documents</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./schedule.html" class="nav-link">Schedule</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
     <!-- Hero section -->
   	<section id="hero-section">
       <div class="card">
@@ -49,7 +69,7 @@
    <!-- Video Section -->
    <section id="video">
       <div id="video_spacer">
-         <iframe width="650" height="400" src="https://www.youtube.com/embed/dgWJIdPbHFY?si=3zBqWzOc2Jkdva15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <iframe width="650" height="400" src="https://www.youtube.com/embed/wwe49j-yP_g?si=Phoc_JV0csO2oQwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
    </section>
 
