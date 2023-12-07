@@ -469,3 +469,37 @@ a {
   background-color: #2D2E2E;
   color: #869D96;
  }
+
+ #schedule{
+   padding: 50px;
+   min-height: 100px;
+   background-color: #869D96;
+ }
+
+ #schedule h1 {
+   padding-bottom: 60px;
+ }
+
+ #schedule a{
+   color: black;
+   text-decoration: underline;
+ }
+
+ .image_container {
+   width: 100%;
+
+ }
+
+ #schedule img{
+   max-width: 100%;
+ }
+
+ #sched_background_image {
+   background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(./pictures/schedule_background.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   padding: 20%;
+ }
