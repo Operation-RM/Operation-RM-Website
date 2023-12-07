@@ -502,4 +502,5 @@ a {
    background-position: center;
    width: 100%;
    padding: 20%;
+   max-height: 400px;
  }

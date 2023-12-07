@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="timeline.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -32,8 +33,19 @@
        </div>
     </nav>
    <section id="sched_background_image">
-
+      <div class="card">
+         <div class="container">
+             <div class="face">
+                <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
+             </div>
+         </div>
+         <div class="card-body container">
+           <h1 class="card-title">Project Schedule</h1>
+         </div>
+       </div>
    </section>
+
+   <!--
    <section id="schedule">
       <div>
          <h1>Schedule</h1>
@@ -44,6 +56,120 @@
          </p>
       </div>
    </section>
+   -->
+
+   <section class="timeline">
+      <div class="container py-5">
+        <div class="main-timeline-2">
+          <div class="timeline-2 left-2">
+            <div class="card">
+              <img src="./pictures/standards.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4"><a href="./documents.html">Team Standards & Initial Evaluation</a></h4>
+                <p class="dates">September 2023</p>
+                <p class="mb-0">Initial project evaluation, including determining basic requirements and
+                  desired solution from the client. Creation of a list of standards to be followed by
+                  team members and establish procedure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-2 right-2">
+            <div class="card">
+              <img src="./pictures/feasibility.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4"><a href="./documents.html">Feasibility Analysis</a></h4>
+                <p class="dates">October 2023</p>
+                <p class="mb-0">Determining risks the solution may impose. Identifying potential candidates 
+                  for tools, methods, and solutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-2 left-2">
+            <div class="card">
+              <img src="./pictures/requirements.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4"><a href="./documents.html">Requirements Acquisition</a></h4>
+                <p class="dates">Early November 2023</p>
+                <p class="mb-0">Finalizing a set of requirements for the project. Determining all functional,
+                  non-functional, and environmental requirements through discussions with General Dynamics Mission Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-2 right-2">
+            <div class="card">
+              <img src="./pictures/prototyping.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4"><a href="./documents.html">Initial Prototyping</a></h4>
+                <p class="dates">November 2023</p>
+                <p class="mb-0">Developing an initial prototype of the mobile application. Primarily focusing on UI development,
+                  while also ensuring compatibility with the radio simulator.
+                </p>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="subtimeline-2 main-timeline-2">
+          <div class="subtimeline timeline-2 left-2 incomplete">
+            <div class="card">
+              <img src="./pictures/connectivity.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Connectivity & Testbeds</h4>
+                <p class="dates">December 2023</p>
+                <p class="mb-0">Ensuring connectivity between the mobile application and the radio modem.
+                  Developing testbeds to streamline the development process.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="subtimeline timeline-2 right-2">
+            <div class="card">
+              <img src="./pictures/transfer.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">File Transfer Operations</h4>
+                <p class="dates">January 2023</p>
+                <p class="mb-0">Adding file transfer operations to the prototype. Both sending and receiving using
+                  the selected waveform.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="subtimeline timeline-2 left-2 incomplete">
+            <div class="card">
+              <img src="./pictures/software.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Testing & Validation</h4>
+                <p class="dates">March 2024</p>
+                <p class="mb-0">Ensuring the solution works and is robust. Validating the requirements
+                  through demonstrations with General Dynamics Mission Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="subtimeline timeline-2 right-2">
+            <div class="card">
+              <img src="./pictures/deployment.jpg" class="card-img-top"
+                alt="Responsive image">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Deployment & Delivery</h4>
+                <p class="dates">April 2023</p>
+                <p class="mb-0">Deployement of the application, sending source code and documentation
+                   to General Dynamics Mission Systems.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
    <!-- Footer section -->
    <section id="footer-section">
