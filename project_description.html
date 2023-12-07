@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">  
     <meta name="milestone" content="Portfolio">
-    <title>CAPSTONE</title>  
+    <title>Operation RM</title>  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,43 +16,120 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-items">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a href="./index.html" class="navbar-brand">
-         <i class="bi bi-house-door"></i></a>
-      <div class="collapse navbar-collapse" id="nav-items">
-         <div class="navbar-nav">
-           
-         <!--
-         <a href="#mission-section" class="nav-link">Mission</a>
-         <a href="#requirements-section" class="nav-link">Requirments</a>
-         <a href="#solution-section" class="nav-link">Solution</a>-->
-         <a href="./index.html" class="nav-link">Team</a>
-         <a href="./project_description.html" class="nav-link">Project Description</a>
-         <a href="#documents-section" class="nav-link">Documents</a>
-          <!--
-         <a href="sponsor.html" class="nav-link">Sponsor</a>
-         <a href="#skills-section" class="nav-link">Skills</a>
-         <a href="#contact-section" class="nav-link">Contact</a>
-          -->
-        </div>
+       <a href="./index.html" class="navbar-brand">
+          <i class="bi bi-house-door"></i>
+       </a>
+       <div class="collapse navbar-collapse" id="nav-items">
+         <ul class="nav navbar-nav left_space">
+            <li><a href="./index.html#team-section" class="nav-link">Team</a></li>
+            <li><a href="./project_description.html" class="nav-link">Project Description</a></li>
+            <li><a href="./documents.html" class="nav-link">Documents</a></li>
+            <li><a href="./schedule.html" class="nav-link">Schedule</a></li>
+         </ul>
        </div>
     </nav>
+   <section id="background_image">
 
-   <!-- Video Section -->
-   <section id="project_description">
-      <p>Project Description</p>
+   </section>
+   <section id="description">
+      <div>
+         <h1>Project Description</h1>
+         <p>In today's world, the need for secure, efficient, and tactical communication in the defense, 
+            public safety and intelligence communities can not be understated. General Dynamics Mission Systems 
+            has tasked Operation RM with developing a solution to solve the problem of inefficient communication with a 
+            radio modem on a mobile device.
+         </p>
+         <p>
+            General Dynamics Mission Systems (GDMS) is a defense contractor that specializes in the development of mission-critical 
+            products and systems. GDMS has developed many widely-used technologies and programs such as Rescue 21, which is a system that 
+            allows the Coast Guard to locate people and vessels in distress. GDMS provides many critical products and 
+            systems to the defense, public safety, and intelligence communities.
+         </p>
+         <p>
+            GDMS has tasked Operation RM with developing an android application that can provide two-way communication with a radio modem, 
+            in addition to being able to select a specific waveform to use for transmitting and receiving. Developing a mobile application 
+            that is able to communicate with a radio modem efficiently is crucial for General Dynamics Mission Systems. Currently, communication 
+            with the radio modem is done through a web interface that is difficult and inefficient to access and add attachments on mobile devices.
+         </p>
+         <p>
+            The following diagram shows the current interface supported by GDMS:
+         </p>
+         <p>
+            <div class="image_container">
+               <img src="pictures/old_systems.png"></img>
+            </div>
+         </p>
+         <p>
+            In contrast, with an android application GDMS customers will be able to communicate in a more efficient and tactical manner. The advantages include 
+            not only the ability to send and receive files efficiently, but also the ability to easily send images in the field using the integrated 
+            android camera application. GDMS has provided a remote control interface (RCI) as well as a radio simulator, used to emulate the
+            actual radio modem.
+         </p>
+         <p>
+            The following diagram shows the proposed solution:
+         </p>
+         <p>
+            <div class="image_container">
+               <img src="pictures/new_systems.png"></img>
+            </div>
+         </p>
+         <p>
+            The initial concept for this project was specified by GDMS through
+            <a target="_blank" rel="noopener noreferrer" href="https://www.ceias.nau.edu/cs/CS_Capstone/Projects/F23/Abousleman_AppControlingRadio.pdf">this</a>
+            document.
+      </div>
    </section>
 
    <!-- Footer section -->
    <section id="footer-section">
       <div id="footer-nav">
-         <p>About</p>
-         <p>Navigation</p>
+         <div id="footer-logo">
+            <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
+         </div>
+         <div class="footer-container">
+            <div class="footer-column">
+               <h3>About</h3>
+               <ul>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./project_description.html">Project Description</a></li>
+                  <li><a href="./index.html#team-section">Team Members</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href="https://gdmissionsystems.com/">Sponsor Website</a></li>
+               </ul>
+            </div>
+            <div class="footer-column">
+               <h3>Technical Details</h3>
+               <ul>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./solution.html">Envisioned Solution</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./requirements.html">Project Requirements</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./technologies.html">Technologies</a></li>
+               </ul>
+            </div>
+            <div class="footer-column">
+               <h3>Documentation</h3>
+               <ul>
+                  <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/Operation-RM">Source Code</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./schedule.html">Schedule</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href="./documents.html">Documents</a></li>
+               </ul>
+            </div>
+         </div>
       </div>
       <div id="footer-base">
-         <p>2023 Operation RM</p>
+         <span>2023 Operation RM</span>
+         <span>
+            <a target="_blank" rel="noopener noreferrer" href="./terms.html">
+            Terms & Privacy
+            </a>
+         </span>
+         <span>|</span>
+         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@OperationRM-wc1oq">
+            <i class="bi bi-youtube"></i>
+         </a>
+         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Operation-RM">
+            <i class="bi bi-github"></i>
+         </a>
       </div>
    </section>
 
