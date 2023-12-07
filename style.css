@@ -117,6 +117,15 @@ P{
 
 }
 
+#learn_more{
+  display: block;
+  width: 100%;
+  background-color: #869D96;
+
+}
+
+
+
 /*meet the sponsor carousel*/
 /* mission  */
 #meetSponsor{
@@ -148,7 +157,7 @@ P{
   width: 100%;
   text-align: center;
   margin: 40px 0;
-  color: #869D96;
+  color: white;
   background-color: #2D2E2E;
   min-height: 500px;
   padding-bottom: 50px;
@@ -278,3 +287,23 @@ P{
   transform: scale(1.05);
   background: hsl(359, 85%, 53%);
 }
+
+
+/*sponsor page*/
+#sponsor{
+  padding-top: 100px;
+  display: block;
+  text-align: center;
+}
+
+/*Documents*/
+#documents{
+  padding-top: 100px;
+  display: block;
+  text-align: center;
+}
+
+.documentsList{
+  display: block;
+  text-align: left;
+  }
