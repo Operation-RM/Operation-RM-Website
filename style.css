@@ -136,6 +136,15 @@ a {
 
 }
 
+#learn_more{
+  display: block;
+  width: 100%;
+  background-color: #869D96;
+
+}
+
+
+
 /*meet the sponsor carousel*/
 /* mission  */
 #meetSponsor{
@@ -170,7 +179,7 @@ a {
   width: 100%;
   text-align: center;
   margin: 40px 0;
-  color: #869D96;
+  color: white;
   background-color: #2D2E2E;
   min-height: 500px;
   padding-bottom: 50px;
