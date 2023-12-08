@@ -476,8 +476,8 @@ a {
  }
 
  #iframe_button{
-  background-color: white;
-  color: #2D2E2E;
+  background-color: hsla(359, 85%, 53%, 0.565);
+  color: white;
  }
 
  #schedule{
@@ -557,3 +557,10 @@ a {
  .pad-bottom {
    padding-bottom: 20px;
  }
+
+ hr {
+  border: 0; /* Remove the default border */
+  height: 5px; /* Set the height of the line */
+  background: linear-gradient(to right, #ccc, hsl(359, 85%, 53%), #ccc); /* Use a gradient for a subtle design */
+  margin: 20px 0; /* Add margin for spacing */
+}

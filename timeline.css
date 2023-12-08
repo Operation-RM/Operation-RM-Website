@@ -1,4 +1,11 @@
 /* The actual timeline (the vertical ruler) */
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color:#2D2E2E ;
+}
+
+
 .main-timeline-2 {
    position: relative;
  }
@@ -126,8 +133,9 @@
  }
 
  .timeline {
-   background-color: #000000;
- }
+   background-color: 2D2E2E;
+  }
+ 
 
  .dates {
    color: hsl(359, 85%, 53%);;
@@ -139,4 +147,28 @@
  
  .timeline a {
    text-decoration: underline;
+ }
+
+ .image_grow {
+  position: relative;
+ }
+
+ .image_grow img{
+  transition:  transform 0.3s ease-in-out;
+ }
+
+ .image_grow:hover img {
+  transform: scale(1.1) rotate(0deg);
+ }
+
+ .image_shrink {
+  position: relative;
+ }
+
+ .image_shrink img{
+  transition:  transform 0.3s ease-in-out;
+ }
+
+ .image_shrink:hover img {
+  transform: scale(0.9) rotate(0deg);
  }
