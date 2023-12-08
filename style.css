@@ -76,6 +76,10 @@ a {
    min-height: 500px;
 }
 
+#navbar{
+  background-color: #0D0805;
+}
+
 .navbar i{
   padding-left: 15px;
 }
@@ -112,17 +116,30 @@ a {
   margin: 10px;
 }
 
+#video-section{
+  display: block;
+  width: 100%;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-height: 600px;
+  text-align: center;
+  background-color: #1E1F1F;
+  color: white;
+}
+
 
 /* mission  */
 #mission-section{
   display: block;
   width: 100%;
-  background-color: #869D96;
   padding: 50px;
   padding-left: 100px;
   padding-right: 100px;
-  min-height: 520px;
+  min-height: 600px;
   text-align: center;
+  background-color: #1E1F1F;
+  color: white;
 }
 
 #mission-section p{
@@ -143,7 +160,7 @@ a {
 #learn_more{
   display: block;
   width: 100%;
-  background-color: #869D96;
+  background-color: #1E1F1F;
 
 }
 
@@ -154,12 +171,12 @@ a {
 #meetSponsor{
   display: block;
   width: 100%;
-  background-color: #869D96;
   padding: 50px;
   padding-left: 100px;
   padding-right: 100px;
-  min-height: 520px;
+  min-height: 600px;
   text-align: center;
+  background-color: #1E1F1F;
 }
 
 #meetSponsor p{
@@ -210,8 +227,8 @@ a {
 
 .headShots{
   padding: 50px;
-  width: 300px;
-  height: 300px;
+  max-width: 300px;
+  max-height: 250px;
   border-radius: 50%;
 }
 
@@ -230,7 +247,7 @@ a {
   text-align: center;
   color: black;
   background-color: black ;
-  min-height: 500px;
+  max-height: 520px;
 }
 
 #video_spacer {
@@ -242,11 +259,11 @@ a {
   display: block;
   width: 100%;
   text-align: center;
-  color: #2D2E2E;
+  color: white;
   padding-left: 100px;
   padding-right: 100px;
-  background-color: #869D96 ;
-  min-height: 520px;
+  min-height: 600px;
+  background-color: #1E1F1F;
 }
 
 #documents-section i{
@@ -263,16 +280,16 @@ a {
 
 #documents-section a{
   text-decoration: none;
-  color: #2D2E2E;
+  color: white;
 }
 
 #documents-section p{
   text-decoration: none;
-  color: #2D2E2E;
+  color: white;
 }
 
 #documents-section i:hover{
-  color: black;
+  color: hsl(359, 85%, 53%);
   font-size: 70px;
 }
 
@@ -310,7 +327,7 @@ a {
 }
 
 #footer-base {
-   background-color: #2D2E2E;
+   background-color: #1E1F1F;
    min-height: 80px;
    display: flex;
    align-items: center;
@@ -476,8 +493,14 @@ a {
  }
 
  #iframe_button{
-  background-color: hsla(359, 85%, 53%, 0.565);
-  color: white;
+  background-color: white;
+  color: #1E1F1F;
+ }
+
+ #iframe_button:hover{
+    background-color: hsl(359, 85%, 53%);
+    color: white;
+    transform: scale(1.1);
  }
 
  #schedule{
@@ -581,10 +604,10 @@ a {
  }
 
  hr {
-  border: 0; /* Remove the default border */
-  height: 5px; /* Set the height of the line */
-  background: linear-gradient(to right, #ccc, hsl(359, 85%, 53%), #ccc); /* Use a gradient for a subtle design */
-  margin: 20px 0; /* Add margin for spacing */
+  border: 0; 
+  height: 5px; 
+  background: linear-gradient(to right, #ccc, hsl(359, 85%, 53%), #ccc); 
+  margin: 20px 0;
 }
 
 .dropdown-menu{
