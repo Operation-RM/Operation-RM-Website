@@ -2,7 +2,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-color:#2D2E2E ;
+  background-color:#282A2A ;
 }
 
 
@@ -22,6 +22,10 @@ blue-ish green
 .left_space {
    padding-left: 20px;
    padding-right: 20px;
+}
+
+#navbar a:hover, #navbar i:hover{
+  color: hsl(359, 85%, 53%);
 }
 
 .red{
@@ -71,13 +75,13 @@ a {
    display: block;
    width: 100%;
    text-align: center;
-   color:#2D2E2E;
+   color:#282A2A;
    background-color: #869D96;
    min-height: 500px;
 }
 
 #navbar{
-  background-color: #0D0805;
+  background-color: #141515;
 }
 
 .navbar i{
@@ -201,7 +205,7 @@ a {
   text-align: center;
   margin: 40px 0;
   color: white;
-  background-color: #2D2E2E;
+  background-color: #282A2A;
   min-height: 500px;
   padding-bottom: 50px;
 }
@@ -235,7 +239,7 @@ a {
 
 /*sponsor*/
 .sponsor{
-  background-color: #2D2E2E;
+  background-color: #282A2A;
   color: beige;
   margin: 0px;
   padding: 0px;
@@ -243,15 +247,13 @@ a {
 
 #video {
   display: block;
-  width: 100%;
   text-align: center;
   color: black;
   background-color: black ;
-  max-height: 520px;
 }
 
 #video_spacer {
-   padding-top: 50px;
+  padding: 25px;
 }
 
 /* Documents */
@@ -374,7 +376,7 @@ a {
   font-size: 18px;
   color: white;
   text-decoration: none;
-  background: #2D2E2E;
+  background: #282A2A;
   border: 2px solid white;
   border-radius: 5px;
   transition: transform 0.2s;
@@ -411,7 +413,7 @@ a {
  #description {
    padding: 50px;
    min-height: 100px;
-   background-color: #2D2E2E;
+   background-color: #282A2A;
    color: white;
  }
 
@@ -450,7 +452,7 @@ a {
  #documents {
    padding: 50px;
    min-height: 100px;
-   background-color: #2D2E2E;
+   background-color: #282A2A;
    color: white;
  }
 
@@ -616,4 +618,16 @@ a {
 .dropdown-item{
   background-color:#212529 ;
   color: lightgray;
+}
+
+.dropdown-item:hover{
+  background-color: #212529;
+}
+
+.footer-column a:hover{
+  color: hsl(359, 85%, 53%);
+}
+
+#red-link:hover{
+  color: hsl(359, 85%, 53%);
 }

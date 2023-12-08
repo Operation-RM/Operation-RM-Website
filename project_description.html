@@ -15,7 +15,7 @@
   </head>
 
   <body>
-   <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark bg-dark">
+   <nav id="navbar" class="navbar navbar-expand-lg navbar-expand-md fixed-top navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-items">
           <span class="navbar-toggler-icon"></span>
       </button>
@@ -57,6 +57,7 @@
    <section id="description">
       <div>
          <h1>Project Description</h1>
+         
          <p>In today's world, the need for secure, efficient, and tactical communication in the defense, 
             public safety and intelligence communities can not be understated. General Dynamics Mission Systems 
             has tasked Operation RM with developing a solution to solve the problem of inefficient communication with a 
@@ -98,7 +99,7 @@
          </p>
          <p>
             The initial concept for this project was specified by GDMS through
-            <a href="#myIframe7" onclick="openIframe('7')">this</a>
+            <a id="red-link" href="#myIframe7" onclick="openIframe('7')">this</a>
             document.
             <iframe id="myIframe7" src="https://www.ceias.nau.edu/cs/CS_Capstone/Projects/F23/Abousleman_AppControlingRadio.pdf" ></iframe>
       </div>
@@ -106,7 +107,7 @@
 
    <!-- Footer section -->
    <section id="footer-section">
-      <div id="footer-nav">
+      <div id="footer-nav" style="background-color:  #141515;">
          <div id="footer-logo">
             <img src="pictures/RM_logo.png" class="card-img-top img-fluid center" alt="Logo">
          </div>
@@ -136,21 +137,6 @@
                </ul>
             </div>
          </div>
-      </div>
-      <div id="footer-base">
-         <span>2023 Operation RM</span>
-         <span>
-            <a target="_blank" rel="noopener noreferrer" href="./terms.html">
-            Terms & Privacy
-            </a>
-         </span>
-         <span>|</span>
-         <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@OperationRM-wc1oq">
-            <i class="bi bi-youtube"></i>
-         </a>
-         <a target="_blank" rel="noopener noreferrer" href="https://github.com/Operation-RM">
-            <i class="bi bi-github"></i>
-         </a>
       </div>
    </section>
 
